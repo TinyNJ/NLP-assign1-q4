@@ -1,6 +1,6 @@
 # NLP-assign1-q4
 Datasets are A dataset and B dataset (this has the actual data). A dataset comprises of files sampled.txt, sampled.vocab.txt and samplet.text. The training data is found in the sampled.txt file and it contains the below:
- <s> a a b b c c </s> <s> a c b c </s> <s> b c c a b </s>
+<s> a a b b c c </s> <s> a c b c </s> <s> b c c a b </s>
 
 We are going to treat each line as a sentence. <s> is the start of sentence symbol and </s> is the end of sentence symbol. To keep the A dataset simple, characters a-z will each be considered as a word. i.e. The ﬁrst sentence has 8 tokens, second has 6 tokens, and the last has 7.
 
